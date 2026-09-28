@@ -1,13 +1,4 @@
 
-.uncial {
-  font-family: "Uncial Antiqua", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.non-pixelated {
-	image-rendering: pixelated;
-}
 
 h1 img {
 	vertical-align: middle;

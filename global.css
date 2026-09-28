@@ -1,0 +1,63 @@
+.uncial {
+  font-family: "Uncial Antiqua", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.non-pixelated {
+	image-rendering: pixelated;
+}
+
+.scaled32 {
+	width: 32px;
+	height: 32;
+}
+
+.scaled64 {
+	width: 64px;
+	height: 64px;
+}
+
+.scaled128 {
+	width: 128px;
+	height: 128px;
+}
+
+.scaled256 {
+	width: 256px;
+	height: 256px;
+}
+
+.scaled512 {
+	width: 512px;
+	height: 512px;
+}
+
+.scaled1024 {
+	width: 1024px;
+	height: 1024px;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.all-screen-height {
+	height: 100vh;
+}
+
+.pos-fixed {
+	position: fixed;
+}
