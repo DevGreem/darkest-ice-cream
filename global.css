@@ -1,3 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&family=Uncial+Antiqua&display=swap');
+
+body {
+	background-color: black;
+	color: white;
+}
+
 .uncial {
   font-family: "Uncial Antiqua", system-ui;
   font-weight: 400;
@@ -46,6 +54,14 @@
 	align-items: center;
 }
 
+.self-justify-center {
+	justify-self: center;
+}
+
+.self-align-center {
+	align-self: center;
+}
+
 .flex {
 	display: flex;
 }
@@ -54,8 +70,24 @@
 	flex-direction: column;
 }
 
+.justify-between {
+	justify-content: space-between;
+}
+
 .all-screen-height {
-	height: 100vh;
+	height: 100dvh;
+}
+
+.all-screen-width {
+	width: 100dvw;
+}
+
+.all-width {
+	width: 100%;
+}
+
+.all-height {
+	height: 100%;
 }
 
 .pos-fixed {
