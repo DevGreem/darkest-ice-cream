@@ -21,3 +21,19 @@ h1 img {
 #cementery {
 	color: rgb(179, 179, 179);
 }
+
+.darkest-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(54, 54, 54);
+	padding: 12px;
+	border-radius: 2.5%;
+	box-shadow: 6px 6px 20px  rgb(116, 116, 116);
+	border-color: grey;
+	border-style: ridge;
+}
+
+.darkest-card img {
+	border-radius: 2%;
+}

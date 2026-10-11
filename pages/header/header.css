@@ -10,7 +10,6 @@
 .darkest-button {
 	transition-property: all;
 	transition-duration: 0.2s;
-	scale: 1;
 }
 
 .darkest-button:hover {
