@@ -4,6 +4,15 @@ a {
 	color: white;
 }
 
+#title {
+	scale: 1;
+	transition: scale 0.2s ease-in-out;
+}
+
+#title:hover {
+	scale: 1.05;
+}
+
 .darkest-button {
 	background-image: url("/assets/images/png/button-background.png");
 	background-repeat: no-repeat;
