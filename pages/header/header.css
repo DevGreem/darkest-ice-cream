@@ -1,0 +1,18 @@
+
+.darkest-button {
+	background-image: url("/assets/images/png/button-background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	width: 128px;
+}
+
+.darkest-button {
+	transition-property: all;
+	transition-duration: 0.2s;
+	scale: 1;
+}
+
+.darkest-button:hover {
+	scale: 1.075;
+}
