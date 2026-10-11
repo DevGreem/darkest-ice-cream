@@ -112,3 +112,7 @@ body {
 .text-center {
 	text-align: center;
 }
+
+.place-center {
+	place-content: center;
+}

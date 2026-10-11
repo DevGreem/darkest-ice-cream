@@ -1,0 +1,43 @@
+
+html, body {
+	height: 100%;
+	margin: 0%
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+section {
+	flex: 1;
+}
+
+.grid {
+	grid-template-columns: repeat(5, 1fr);
+	gap: 16px;
+}
+
+#columns-4 {
+	grid-template-columns: repeat(4, 1fr) !important;
+}
+
+.loot {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(37, 37, 37);
+	padding: 8px;
+	border-radius: 10px;
+	border-color: rgb(20, 20, 20);
+	border-style: solid;
+	transition: transform 0.2s ease-in;
+	transform: translateY(0);
+	box-shadow: inset 0px 0px 8px black;
+	text-align: center;
+}
+
+.loot:hover {
+	transform: translateY(-10px);
+}
