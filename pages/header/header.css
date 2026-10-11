@@ -1,4 +1,9 @@
 
+a {
+	text-decoration: none;
+	color: white;
+}
+
 .darkest-button {
 	background-image: url("/assets/images/png/button-background.png");
 	background-repeat: no-repeat;

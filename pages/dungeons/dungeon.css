@@ -1,0 +1,27 @@
+
+
+.dungeon .grid {
+	grid-template-columns: 0fr;
+	transition: grid-template-columns 0.6s ease-in-out;
+	align-content: center;
+}
+
+.dungeon p {
+	overflow: hidden;
+	white-space: nowrap;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	/* max-width: 0;
+	opacity: 0;
+	transition: max-width 0.4s ease-in-out, opacity 0.2s ease-in-out; */
+}
+
+/* .dungeon:hover p {
+	max-width: max-content;
+	opacity: 1;
+} */
+
+.dungeon:hover .grid {
+	grid-template-columns: 1fr;
+}
