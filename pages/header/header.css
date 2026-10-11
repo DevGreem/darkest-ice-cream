@@ -18,7 +18,7 @@ a {
 }
 
 .darkest-button {
-	background-image: url("/assets/images/png/button-background.png");
+	background-image: url("../../assets/images/png/button-background.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: white;
