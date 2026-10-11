@@ -81,6 +81,10 @@ body {
 	justify-content: space-between;
 }
 
+.justify-around {
+	justify-content: space-around;
+}
+
 .all-screen-height {
 	height: 100dvh;
 }
@@ -99,4 +103,8 @@ body {
 
 .pos-fixed {
 	position: fixed;
+}
+
+.text-center {
+	text-align: center;
 }
